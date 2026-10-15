@@ -1,0 +1,12 @@
+clean_build        exit   0 stdout e3b0c44298fc1c14 stderr fce4688335f3cc8a
+errors3_build      exit 101 stdout e3b0c44298fc1c14 stderr e64f4bdc2d63241e
+warns_build        exit   0 stdout e3b0c44298fc1c14 stderr d967305205068ab6
+warns_clippy       exit   0 stdout e3b0c44298fc1c14 stderr 032f0adebbef2f17
+testfail_test      exit 101 stdout 22e3c88e20b35689 stderr 870ab3147117227a
+testpass_test      exit   0 stdout f7390a923fc92816 stderr 81900a82619bf6d9
+unresolved_build   exit 101 stdout e3b0c44298fc1c14 stderr 022cac8d3ce07fb3
+ownership_build    exit 101 stdout e3b0c44298fc1c14 stderr 86bf4096e66c637e
+cascade_build      exit 101 stdout e3b0c44298fc1c14 stderr e348cf1ffc5edbda
+metadata           exit   0 stdout 721bf7b83e636fd3 stderr e3b0c44298fc1c14
+version            exit   0 stdout cfac1b8bc7fab9cc stderr e3b0c44298fc1c14
+docfail_test       exit 101 stdout e8130dcf6a2bcfd3 stderr 746cb5946b1742a4

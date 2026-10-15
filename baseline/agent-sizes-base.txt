@@ -1,0 +1,15 @@
+errors3_build      total   4564 records   4  diagnostic=4098 summary=466
+warns_build        total   3725 records   4  diagnostic=3208 summary=517
+warns_clippy       total   6486 records   6  diagnostic=5912 summary=574
+cascade_build      total   4219 records   3  diagnostic=3793 summary=426
+unresolved_build   total   3434 records   4  diagnostic=2249 missing-crate=756 summary=429
+ownership_build    total  14754 records   7  diagnostic=14254 summary=500
+warns_fixpreview   total   5522 records   5  diagnostic=3208 fix-preview=1797 summary=517
+testfail_test      total   4475 records   7  test=1766 diagnostic=1778 test-suite=359 summary=572
+docfail_test       total   5384 records   9  test=2141 test-suite=620 diagnostic=2053 summary=570
+testpass_test      total   2059 records   6  test=867 test-suite=622 summary=570
+panic_report       total  14147 records   9  test=4492 diagnostic=4504 panic-report=4219 test-suite=360 summary=572
+clean_build        total    469 records   1  summary=469
+manywarns_build    total 167981 records 151  diagnostic=167469 summary=512
+why_feature        total   3995 records   1  why-feature=3995
+why_rebuilt        total   2253 records   3  why-rebuilt=1022 summary=1231

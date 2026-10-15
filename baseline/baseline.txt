@@ -1,0 +1,11 @@
+clean_build        exit   0 stdout e3b0c44298 stderr 9b2b39ab70    118.7 ms
+errors3_build      exit 101 stdout e3b0c44298 stderr 79e0ed2033     80.4 ms
+warns_build        exit   0 stdout e3b0c44298 stderr 811f5d2bbb    127.4 ms
+warns_clippy       exit   0 stdout e3b0c44298 stderr a38d48b943     96.5 ms
+testfail_test      exit 101 stdout 22e3c88e20 stderr 28ff8d9bdb    142.2 ms
+testpass_test      exit   0 stdout f7390a923f stderr a752d3d51e    283.8 ms
+unresolved_build   exit 101 stdout e3b0c44298 stderr 3da2b4e693     72.2 ms
+ownership_build    exit 101 stdout e3b0c44298 stderr 9604e43f72     71.5 ms
+cascade_build      exit 101 stdout e3b0c44298 stderr a778af9227     77.6 ms
+metadata           exit   0 stdout d9b13646d5 stderr e3b0c44298     15.3 ms
+version            exit   0 stdout cfac1b8bc7 stderr e3b0c44298     13.1 ms
